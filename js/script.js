@@ -11,7 +11,7 @@
         if( i < 15 ) {
             i++;
             if ( i > 0 ) {
-                $(this).parent('.player').children('.player-score').css('color', 'pink');
+                $(this).parent('.player').children('.player-score').css('color', 'violet');
             }
 
             if ( i > 5 ) {
@@ -39,7 +39,7 @@
                 $(this).parent('.player').children('.player-score').css('color', 'orange');
             }
             if ( i < 5) {
-                $(this).parent('.player').children('.player-score').css('color', 'pink');
+                $(this).parent('.player').children('.player-score').css('color', 'violet');
             }
             $(this).parent('.player').children('.player-score').html(i);
             console.log(i);
