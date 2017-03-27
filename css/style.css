@@ -28,6 +28,14 @@ body {
     margin-bottom:10px;
 }
 
+.add-score {
+    color:lime;
+}
+
+.minus-score {
+    color:red;
+}
+
 input {
     margin-top:10px;
     margin-bottom:10px;
@@ -41,5 +49,5 @@ input {
     font-family: 'Macondo', cursive;
     font-size: 100px;
     margin:0;
-    color:pink;
+    color:violet;
 }
